@@ -7,8 +7,8 @@ const app = express()
 // Create GET request
 app.get('/one', (req, res) => {
   setTimeout(() => {
-    res.send('First app with 1000 delay ');
-  }, 1000);
+    res.send('First app with 0 delay ');
+  }, 0);
 })
 
 // Create GET request
