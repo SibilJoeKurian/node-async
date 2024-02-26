@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/SibilJoeKurian/node-async/issues"
   },
-  "homepage": "https://github.com/SibilJoeKurian/node-async#readme"
+  "homepage": "https://github.com/SibilJoeKurian/node-async#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
 }
