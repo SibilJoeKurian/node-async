@@ -5,11 +5,27 @@ const express = require('express')
 const app = express()
 
 // Create GET request
-app.get('/', (req, res) => {
+app.get('/one', (req, res) => {
   //res.send('Express on Vercel')
   setTimeout(() => {
-    res.send('Express on Vercel');
+    res.send('First app with 5 milli 5000 delay');
   }, 5000);
+})
+
+// Create GET request
+app.get('/two', (req, res) => {
+  //res.send('Express on Vercel')
+  setTimeout(() => {
+    res.send('Second app with 5 milli 8000 delay');
+  }, 8000);
+})
+
+// Create GET request
+app.get('/three', (req, res) => {
+  //res.send('Express on Vercel')
+  setTimeout(() => {
+    res.send('Three app with 5 milli Thir delay');
+  }, 10000);
 })
 
 // Initialize server
