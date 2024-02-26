@@ -1,23 +1,25 @@
 {
-  "name": "NODE_ASYNC",
+  "name": "express-on-vercel",
   "version": "1.0.0",
-  "description": "",
+  "description": "This project is going to be used to show the NashJS audience how to deploy a simple Express API to Vercel.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon index"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/SibilJoeKurian/node-async.git"
+    "url": "git+https://github.com/heyshadowsmith/express-on-vercel.git"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Shadow Smith",
+  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/SibilJoeKurian/node-async/issues"
+    "url": "https://github.com/heyshadowsmith/express-on-vercel/issues"
   },
-  "homepage": "https://github.com/SibilJoeKurian/node-async#readme",
+  "homepage": "https://github.com/heyshadowsmith/express-on-vercel#readme",
   "dependencies": {
-    "express": "^4.18.2"
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
   }
 }
