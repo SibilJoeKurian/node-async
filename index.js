@@ -18,6 +18,8 @@ app.get('/two', (req, res) => {
   }, 2000);
 })
 
+console.log('::: test');
+
 // Create GET request
 app.get('/three', (req, res) => {
   setTimeout(() => {
